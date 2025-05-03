@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  [data-theme="dark"] {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --gradient-start: 270 58% 50%;
+    --gradient-end: 330 81% 60%;
+    --gradient-text-start: 270 58% 70%;
+    --gradient-text-mid: 330 81% 65%;
+    --gradient-text-end: 0 100% 67%;
+  }
+
+  [data-theme="red"] {
+    --background: 0 50% 10%;
+    --foreground: 0 0% 98%;
+    --card: 0 50% 15%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 50% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 50% 10%;
+    --secondary: 0 50% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 50% 20%;
+    --muted-foreground: 0 10% 70%;
+    --accent: 0 50% 20%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 50% 20%;
+    --input: 0 50% 20%;
+    --ring: 0 50% 50%;
+    --gradient-start: 0 70% 50%;
+    --gradient-end: 15 80% 50%;
+    --gradient-text-start: 0 70% 70%;
+    --gradient-text-mid: 15 80% 65%;
+    --gradient-text-end: 30 90% 60%;
+  }
+
+  [data-theme="blue"] {
+    --background: 220 70% 10%;
+    --foreground: 210 40% 98%;
+    --card: 220 70% 15%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 70% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 220 70% 10%;
+    --secondary: 220 70% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 70% 20%;
+    --muted-foreground: 220 10% 70%;
+    --accent: 220 70% 20%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 70% 20%;
+    --input: 220 70% 20%;
+    --ring: 220 70% 50%;
+    --gradient-start: 220 70% 50%;
+    --gradient-end: 250 80% 60%;
+    --gradient-text-start: 220 70% 70%;
+    --gradient-text-mid: 250 80% 65%;
+    --gradient-text-end: 270 90% 60%;
+  }
+
+  [data-theme="pink"] {
+    --background: 330 50% 10%;
+    --foreground: 330 10% 98%;
+    --card: 330 50% 15%;
+    --card-foreground: 330 10% 98%;
+    --popover: 330 50% 10%;
+    --popover-foreground: 330 10% 98%;
+    --primary: 330 10% 98%;
+    --primary-foreground: 330 50% 10%;
+    --secondary: 330 50% 20%;
+    --secondary-foreground: 330 10% 98%;
+    --muted: 330 50% 20%;
+    --muted-foreground: 330 10% 70%;
+    --accent: 330 50% 20%;
+    --accent-foreground: 330 10% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 330 10% 98%;
+    --border: 330 50% 20%;
+    --input: 330 50% 20%;
+    --ring: 330 50% 50%;
+    --gradient-start: 330 70% 50%;
+    --gradient-end: 300 80% 60%;
+    --gradient-text-start: 330 70% 70%;
+    --gradient-text-mid: 300 80% 65%;
+    --gradient-text-end: 270 90% 60%;
+  }
+
+  [data-theme="orange"] {
+    --background: 30 50% 10%;
+    --foreground: 30 10% 98%;
+    --card: 30 50% 15%;
+    --card-foreground: 30 10% 98%;
+    --popover: 30 50% 10%;
+    --popover-foreground: 30 10% 98%;
+    --primary: 30 10% 98%;
+    --primary-foreground: 30 50% 10%;
+    --secondary: 30 50% 20%;
+    --secondary-foreground: 30 10% 98%;
+    --muted: 30 50% 20%;
+    --muted-foreground: 30 10% 70%;
+    --accent: 30 50% 20%;
+    --accent-foreground: 30 10% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 30 10% 98%;
+    --border: 30 50% 20%;
+    --input: 30 50% 20%;
+    --ring: 30 50% 50%;
+    --gradient-start: 30 70% 50%;
+    --gradient-end: 50 80% 50%;
+    --gradient-text-start: 30 70% 70%;
+    --gradient-text-mid: 50 80% 65%;
+    --gradient-text-end: 70 90% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1.gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+    background-image: linear-gradient(
+      to right,
+      hsl(var(--gradient-text-start)),
+      hsl(var(--gradient-text-mid)),
+      hsl(var(--gradient-text-end))
+    );
+  }
+
+  .gradient-bg {
+    background-image: linear-gradient(to right, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, hsl(var(--gradient-start) / 0.8), hsl(var(--gradient-end) / 0.8));
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--gradient-start)) hsl(var(--background));
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: inset(50% 0 30% 0);
+    transform: translate(-5px, 0);
+  }
+  20% {
+    clip-path: inset(15% 0 65% 0);
+    transform: translate(5px, 0);
+  }
+  40% {
+    clip-path: inset(45% 0 40% 0);
+    transform: translate(-5px, 0);
+  }
+  60% {
+    clip-path: inset(25% 0 60% 0);
+    transform: translate(5px, 0);
+  }
+  80% {
+    clip-path: inset(55% 0 30% 0);
+    transform: translate(-5px, 0);
+  }
+  100% {
+    clip-path: inset(50% 0 30% 0);
+    transform: translate(0);
+  }
+}
+
+.glitch {
+  animation: glitch 1s infinite;
+  position: relative;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 hsl(var(--gradient-start));
+  clip: rect(24px, 550px, 90px, 0);
+  animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 hsl(var(--gradient-end));
+  clip: rect(85px, 550px, 140px, 0);
+  animation: glitch-anim 2s infinite linear alternate-reverse;
+}

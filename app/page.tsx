@@ -40,8 +40,8 @@ const projectsData = [
     id: 1,
     title: "AI-Smile Analysis",
     description:
-      "An AI-Based teeth analysis/face analysis, dental routine/veneer recommendation system with report generation, email to doctor, appointment booking, integrated dental simulator.",
-    tags: ["Next.js", "Vortex AI", "PostgreSQL", "Blender", "Computer Vision", "Three.js", "Typescript"],
+      "An AI-Based teeth analysis/face analysis, dental routine/veneer recommendation system with report generation, email to doctor, appointment booking, integrated dental simulator with(Models: Overbite/Crossbite/Underbite and Treatments: Invisalign/veneers) .",
+    tags: ["Next.js", "Vortex AI", "PostgreSQL", "Blender", "Computer Vision", "Three.js", "Nodemailer", "Typescript"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746351264/Screenshot_from_2025-05-04_14-55-00_cjdaqu.png",
     liveLink: "https://ai-smile-analysis.vercel.app",
     githubLink: "https://github.com/jayrajsinghrathore/SmileMatch-AI",
@@ -50,7 +50,7 @@ const projectsData = [
     id: 2,
     title: "WealthWise",
     description:"Wealth Wise is a modern personal finance management application built with Next.js, TypeScript, Prisma, PostgreSQL, and Chart.js. It helps users track income, expenses, and financial goals through a clean dashboard and interactive data visualizations. Designed for clarity and scalability, the app ensures a smooth and responsive budgeting experience.",
-    tags: ["Next.js", "NextAuth & OAuth", "PostgreSQL", "Chat.js", "Prisma ORM", "Three.js", "Typescript"],
+    tags: ["Next.js", "NextAuth & OAuth", "PostgreSQL", "Chart.js", "Prisma ORM", "Three.js", "Typescript"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746338554/Screenshot_from_2025-05-04_10-37-07_uevfgg.png",
     liveLink: "https://wealthwise-jayraj.vercel.app",
     githubLink: "https://github.com/jayrajsinghrathore/WealthWise",
@@ -68,7 +68,7 @@ const projectsData = [
  
   {
     id: 4,
-    title: "Collaborative Whiteboard",
+    title: "DrawCollab",
     description:"A real-time collaborative whiteboard application with rich features, smooth animations, and secure authentication. Perfect for remote teams, educators, and creative professionals. It features real-time drawing tools like pen, shapes, text, and eraser with customizable colors and stroke sizes. Users can zoom, pan, export their work, and enjoy a smooth, interactive canvas experience across devices.",
     tags: ["Next.js", "NextAuth", " Three.js", "TypeScript", "Websocket", "Tailwind CSS"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745495809/Screenshot_from_2025-04-24_17-22-06_g1aju0.png",
@@ -78,8 +78,8 @@ const projectsData = [
   {
     id: 5,
     title: "AOT-The Epic Story",
-    description:"A dynamic fan-made website dedicated to the world of Attack on Titan. Showcases character profiles, major story arcs, and stunning visuals with optimized media via Cloudinary.",
-    tags: ["Next.js", "RedixUI", "Cloudinary", "Typescript"],
+    description:"dynamic and visually immersive fan site dedicated to the legendary anime Attack on Titan. It brings the world of Titans, characters, and story arcs to life with smooth animations with optimized media via Cloudinary and interactive 3D visuals. The site blends performance and design to deliver an engaging experience for anime fans.",
+    tags: ["Next.js", "Three.js","Framer Motion", "Cloudinary", "Typescript", "TailwindCSS"],
     image:
       "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745298773/Screenshot_from_2025-04-20_18-59-24_jte4hi.png",
     liveLink: "https://attack-on-titan-jayraj.vercel.app/",
@@ -101,7 +101,7 @@ const projectsData = [
     title: "Employee Network",
     description:
       "A Comprehensive Employee Management System: Leveraged React to create a dynamic web application featuring an intuitive admin dashboard and employee interface to assign and accept tasks, enhancing user experience through responsive design and seamless navigation.",
-    tags: ["Javascript", "Tailwind Css", "React.js", "Context API"],
+    tags: ["Javascript", "Tailwind Css", "React.js", "Context API", "Localstorage"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745495809/Screenshot_from_2025-04-24_17-22-54_ei33ge.png",
     liveLink: "https://adorable-fenglisu-a762c2.netlify.app",
     githubLink: "https://github.com/jayrajsinghrathore/EMPLOYEE-NETWORK",

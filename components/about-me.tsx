@@ -7,13 +7,13 @@ import { Calendar, MapPin, Building2 } from "lucide-react"
 const timelineData = [
   {
     id: 1,
-    company: "Ace-Hack 4.0",
-    role: "Hackathon",
-    period: "2025",
-    location: "Jaipur",
+    company: "Scribes, HackaSphere, Ace-Hack 4.0",
+    role: "Hackathons",
+    period: "2023-2025",
+    location: "Jaipur, Delhi",
     type: "Top 10",
-    logo: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/event-covers/zn/6d959445-1f18-42cb-9ea8-532f09c7c6d3.jpg",
-    skills: ["Typescript", "Blender", "Next.js", "TensorFlow.js"],
+    logo: "https://img.freepik.com/premium-photo/team-business-people-working-together_813420-473.jpg",
+    skills: ["Typescript", "Websockets", "Next.js", "PostgreSQL", "Python"],
   },
   {
     id: 2,

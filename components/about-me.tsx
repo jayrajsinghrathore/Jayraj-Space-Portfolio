@@ -41,17 +41,17 @@ const skillsData = {
     { name: "Django", proficiency: 50 },
   ],
   "Tools/Design": [
-    { name: "Git & Git-Hub", proficiency: 98 },
+    { name: "Git ", proficiency: 98 },
     { name: "VS-Code", proficiency: 88 },
-    { name: "Linux", proficiency: 78 },
+    { name: "Linux", proficiency: 80 },
     { name: "Figma", proficiency: 78 },
     { name: "Canva", proficiency: 78 },
   ],
   "Platforms & Services": [
-    { name: "Supabase, Neon", proficiency: 98 },
-    { name: "Git-Hub", proficiency: 88 },
+    { name: "Supabase & Neon", proficiency: 90 },
+    { name: "Git-Hub", proficiency: 98 },
     { name: "Postman", proficiency: 85 },
-    { name: "Vercel, Netlify", proficiency: 80 },
+    { name: "Vercel & Netlify", proficiency: 80 },
     { name: "Prisma Studio", proficiency: 78 },
   ],
 }

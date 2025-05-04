@@ -70,7 +70,7 @@ const projectsData = [
     id: 4,
     title: "DrawCollab",
     description:"A real-time collaborative whiteboard application with rich features, smooth animations, and secure authentication. Perfect for remote teams, educators, and creative professionals. It features real-time drawing tools like pen, shapes, text, and eraser with customizable colors and stroke sizes. Users can zoom, pan, export their work, and enjoy a smooth, interactive canvas experience across devices.",
-    tags: ["Next.js", "NextAuth", " Three.js", "TypeScript", "Websocket", "Tailwind CSS"],
+    tags: ["Next.js", "NextAuth", " Three.js", "TypeScript", "Websockets", "Tailwind CSS"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745495809/Screenshot_from_2025-04-24_17-22-06_g1aju0.png",
     liveLink: "https://collaborative-whiteboard-tool2.vercel.app",
     githubLink: "https://github.com/jayrajsr/portfolio",
@@ -79,7 +79,7 @@ const projectsData = [
     id: 5,
     title: "AOT-The Epic Story",
     description:"dynamic and visually immersive fan site dedicated to the legendary anime Attack on Titan. It brings the world of Titans, characters, and story arcs to life with smooth animations with optimized media via Cloudinary and interactive 3D visuals. The site blends performance and design to deliver an engaging experience for anime fans.",
-    tags: ["Next.js", "Three.js","Framer Motion", "Cloudinary", "Typescript", "TailwindCSS"],
+    tags: ["Next.js", "Three.js","Framer Motion", "Cloudinary", "Typescript", "TailwindCSS", "Shadcn"],
     image:
       "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745298773/Screenshot_from_2025-04-20_18-59-24_jte4hi.png",
     liveLink: "https://attack-on-titan-jayraj.vercel.app/",

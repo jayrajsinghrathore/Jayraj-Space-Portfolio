@@ -213,10 +213,7 @@ export default function AboutMe() {
               </span>
               <span className="ml-2 text-white">⚔️</span>
             </h3>
-            {/* 
-              Note: Skills data can be customized as requested.
-              Current structure is maintained for demonstration.
-            */}
+            
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {Object.entries(skillsData).map(([category, skills]) => (
                 <div key={category} className="p-6 bg-gray-900/50 rounded-xl backdrop-blur-sm border border-gray-800">

@@ -62,7 +62,7 @@ const projectsData = [
       "VoiceCook AI is a voice-controlled AI cooking assistant that allows users to search, view, and save recipes using natural voice commands. Built for hands-free use in the kitchen, it enhances the cooking experience with intelligent search and a smooth, interactive UI.",
     tags: ["Next.js", "Spoonacular API", "PostgreSQL", "Cloudinary", "Prisma","Framer Motion", "Typescript"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746338567/Screenshot_from_2025-05-04_11-07-31_iz1xgf.png",
-    liveLink: "https://voice-cook-ai.vercel.app",
+    liveLink: "https://voicecook-ai.vercel.app",
     githubLink: "https://github.com/jayrajsinghrathore/VoiceCook-AI",
   },
  
@@ -428,7 +428,7 @@ export default function Home() {
           </div>
           <div className="text-center text-muted-foreground text-sm">
             <p>© {new Date().getFullYear()} Jayraj Singh Rathore. All rights reserved.</p>
-            <a href="mailto:jayrajsr@gmail.com" className="text-primary hover:text-primary/80 mt-2 inline-block">
+            <a href="mailto:jayraj8285@gmail.com" className="text-primary hover:text-primary/80 mt-2 inline-block">
               jayraj8285@gmail.com
             </a>
           </div>

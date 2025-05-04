@@ -41,35 +41,53 @@ const projectsData = [
     title: "AI-Smile Analysis",
     description:
       "An AI-Based teeth analysis/face analysis, dental routine/veneer recommendation system with report generation, email to doctor, appointment booking, integrated dental simulator.",
-    tags: ["Next.js", "TensorFlow.js", "Blender", "Three.js", "Typescript"],
-    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745147123/ai-smile_ixvnxl.jpg",
+    tags: ["Next.js", "Vortex AI", "PostgreSQL", "Blender", "Computer Vision", "Three.js", "Typescript"],
+    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746351264/Screenshot_from_2025-05-04_14-55-00_cjdaqu.png",
     liveLink: "https://ai-smile-analysis.vercel.app",
-    githubLink: "https://github.com/jayrajsinghrathore/Smile-match-AI",
+    githubLink: "https://github.com/jayrajsinghrathore/SmileMatch-AI",
   },
   {
     id: 2,
-    title: "AOT-The Epic Story",
+    title: "WealthWise",
+    description:"Wealth Wise is a modern personal finance management application built with Next.js, TypeScript, Prisma, PostgreSQL, and Chart.js. It helps users track income, expenses, and financial goals through a clean dashboard and interactive data visualizations. Designed for clarity and scalability, the app ensures a smooth and responsive budgeting experience.",
+    tags: ["Next.js", "NextAuth & OAuth", "PostgreSQL", "Chat.js", "Prisma ORM", "Three.js", "Typescript"],
+    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746338554/Screenshot_from_2025-05-04_10-37-07_uevfgg.png",
+    liveLink: "https://wealthwise-jayraj.vercel.app",
+    githubLink: "https://github.com/jayrajsinghrathore/WealthWise",
+  },
+  {
+    id: 3,
+    title: "VoiceCook AI",
     description:
-      "A dynamic fan-made website dedicated to the world of Attack on Titan. Showcases character profiles, major story arcs, and stunning visuals with optimized media via Cloudinary.",
+      "VoiceCook AI is a voice-controlled AI cooking assistant that allows users to search, view, and save recipes using natural voice commands. Built for hands-free use in the kitchen, it enhances the cooking experience with intelligent search and a smooth, interactive UI.",
+    tags: ["Next.js", "Spoonacular API", "PostgreSQL", "Cloudinary", "Prisma","Framer Motion", "Typescript"],
+    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746338567/Screenshot_from_2025-05-04_11-07-31_iz1xgf.png",
+    liveLink: "https://voice-cook-ai.vercel.app",
+    githubLink: "https://github.com/jayrajsinghrathore/VoiceCook-AI",
+  },
+ 
+  {
+    id: 4,
+    title: "Collaborative Whiteboard",
+    description:"A real-time collaborative whiteboard application with rich features, smooth animations, and secure authentication. Perfect for remote teams, educators, and creative professionals. It features real-time drawing tools like pen, shapes, text, and eraser with customizable colors and stroke sizes. Users can zoom, pan, export their work, and enjoy a smooth, interactive canvas experience across devices.",
+    tags: ["Next.js", "NextAuth", " Three.js", "TypeScript", "Websocket", "Tailwind CSS"],
+    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745495809/Screenshot_from_2025-04-24_17-22-06_g1aju0.png",
+    liveLink: "https://collaborative-whiteboard-tool2.vercel.app",
+    githubLink: "https://github.com/jayrajsr/portfolio",
+  },
+  {
+    id: 5,
+    title: "AOT-The Epic Story",
+    description:"A dynamic fan-made website dedicated to the world of Attack on Titan. Showcases character profiles, major story arcs, and stunning visuals with optimized media via Cloudinary.",
     tags: ["Next.js", "RedixUI", "Cloudinary", "Typescript"],
     image:
       "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745298773/Screenshot_from_2025-04-20_18-59-24_jte4hi.png",
     liveLink: "https://attack-on-titan-jayraj.vercel.app/",
     githubLink: "https://github.com/jayrajsinghrathore/AOT-The-Epic-Anime",
   },
-  {
-    id: 3,
-    title: "Collaborative Whiteboard",
-    description:
-      "A fully functional whiteboard application built using Next.js, TypeScript, and Three.js. It features real-time drawing tools like pen, shapes, text, and eraser with customizable colors and stroke sizes. Users can zoom, pan, export their work, and enjoy a smooth, interactive canvas experience across devices.",
-    tags: ["Next.js", "Tailwind CSS", " Three.js", "TypeScript"],
-    image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1745495809/Screenshot_from_2025-04-24_17-22-06_g1aju0.png",
-    liveLink: "https://jayrajsr.vercel.app",
-    githubLink: "https://github.com/jayrajsr/portfolio",
-  },
 
   {
-    id: 4,
+    id: 6,
     title: "Frag & Frame",
     description:
       "BGMI portfolio a dynamic and interactive showcase of my gaming journey, built with GSAP and JavaScript. Features include smooth scrolling, cool animations, and sleek cards to display my achievements and milestones in BGMI.",
@@ -79,7 +97,7 @@ const projectsData = [
     githubLink: "https://github.com/jayrajsinghrathore/FRAG-FRAME",
   },
   {
-    id: 5,
+    id: 7,
     title: "Employee Network",
     description:
       "A Comprehensive Employee Management System: Leveraged React to create a dynamic web application featuring an intuitive admin dashboard and employee interface to assign and accept tasks, enhancing user experience through responsive design and seamless navigation.",
@@ -88,6 +106,7 @@ const projectsData = [
     liveLink: "https://adorable-fenglisu-a762c2.netlify.app",
     githubLink: "https://github.com/jayrajsinghrathore/EMPLOYEE-NETWORK",
   },
+
 ]
 
 export default function Home() {

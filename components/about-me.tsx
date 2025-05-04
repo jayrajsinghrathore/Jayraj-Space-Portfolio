@@ -38,7 +38,7 @@ const skillsData = {
     { name: "Next.js", proficiency: 85 },
     { name: "Node.js", proficiency: 80 },
     { name: "Express.js", proficiency: 70 },
-    { name: "TensorFlow.js", proficiency: 50 },
+    { name: "Jango", proficiency: 50 },
   ],
   "Tools/Design": [
     { name: "Git", proficiency: 98 },
@@ -46,6 +46,13 @@ const skillsData = {
     { name: "Linux", proficiency: 78 },
     { name: "Figma", proficiency: 78 },
     { name: "Canva", proficiency: 78 },
+  ],
+  "Platforms & Services": [
+    { name: "Supabase, Neon", proficiency: 98 },
+    { name: "Git-Hub", proficiency: 88 },
+    { name: "Postman", proficiency: 85 },
+    { name: "Vercel, Netlify", proficiency: 80 },
+    { name: "Prisma Studio", proficiency: 78 },
   ],
 }
 
@@ -210,7 +217,7 @@ export default function AboutMe() {
               Note: Skills data can be customized as requested.
               Current structure is maintained for demonstration.
             */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {Object.entries(skillsData).map(([category, skills]) => (
                 <div key={category} className="p-6 bg-gray-900/50 rounded-xl backdrop-blur-sm border border-gray-800">
                   <h4 className="text-xl font-bold mb-4 text-purple-400 text-center md:text-left">{category}</h4>

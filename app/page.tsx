@@ -377,7 +377,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-2">Prefer to schedule a meeting?</p>
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a
-                      href="https://calendly.com/jayrajsr/quickchat"
+                      href="https://calendly.com/jayraj8285/30min"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white gradient-bg hover:opacity-90"

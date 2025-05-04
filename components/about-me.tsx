@@ -41,7 +41,7 @@ const skillsData = {
     { name: "Django", proficiency: 50 },
   ],
   "Tools/Design": [
-    { name: "Git", proficiency: 98 },
+    { name: "Git & Git-Hub", proficiency: 98 },
     { name: "VS-Code", proficiency: 88 },
     { name: "Linux", proficiency: 78 },
     { name: "Figma", proficiency: 78 },

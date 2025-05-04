@@ -62,8 +62,8 @@ export default function Navbar() {
           className="flex items-center text-2xl font-bold text-foreground"
           onClick={(e) => scrollToSection(e, "#home")}
         >
-          <div className="relative w-8 h-8 mr-2">
-            <Image src="/images/js-logo.png" alt="JS Logo" fill className="object-contain" />
+          <div className="relative w-10 h-10 mr-2 overflow-hidden rounded-full">
+            <Image src="/images/LOGO.png" alt="Logo" fill className="object-cover" />
           </div>
           Jayraj's Space<span className="text-red-500">.</span>
         </Link>

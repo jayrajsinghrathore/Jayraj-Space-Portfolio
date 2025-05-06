@@ -77,7 +77,7 @@ export default function AboutMe() {
             <div className="md:w-1/3">
               <div className="relative w-64 h-64 mx-auto">
                 <Image
-                  src="https://res.cloudinary.com/dzrs9u5fg/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1745145763/Snapchat-703159312_oqkyx7.jpg"
+                  src="https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746544738/IMG_20250506_204636_xvlxkr.jpg"
                   alt="Jayraj Singh Rathore"
                   fill
                   className="rounded-lg object-cover shadow-lg"

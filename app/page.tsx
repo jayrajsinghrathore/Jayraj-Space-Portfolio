@@ -131,33 +131,30 @@ export default function Home() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setFormSubmitting(true)
-
-    // Get form data
+  
     const formData = new FormData(e.currentTarget)
     const name = formData.get("name") as string
     const email = formData.get("email") as string
     const message = formData.get("message") as string
-
-    // Simple validation
+  
     if (!name || !email || !message) {
       toast.error("Please fill in all fields")
       setFormSubmitting(false)
       return
     }
-
+  
     try {
-      // In a real implementation, you would send this data to your backend
-      // For now, we'll simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1500))
-
-      // Show success message
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      })
+  
+      if (!res.ok) throw new Error("Failed to send")
+  
       toast.success("Message sent successfully! I'll get back to you soon.")
       setFormSuccess(true)
-
-      // Reset form
       e.currentTarget.reset()
-
-      // After 3 seconds, reset success state
       setTimeout(() => setFormSuccess(false), 3000)
     } catch (error) {
       toast.error("Failed to send message. Please try again.")
@@ -165,6 +162,7 @@ export default function Home() {
       setFormSubmitting(false)
     }
   }
+  
 
   // Get visible projects based on showAllProjects state
   const visibleProjects = showAllProjects ? projectsData : projectsData.slice(0, 2)

@@ -28,5 +28,5 @@ Welcome to my personal developer portfolio built with modern web technologies. T
 
 ---
 
-Feel free to fork, explore the source, or reach out via the contact form!
+Feel free to fork, explore the source, or reach out via the contact form! 
 

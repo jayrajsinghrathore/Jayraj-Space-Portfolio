@@ -43,7 +43,7 @@ const projectsData = [
       "An AI-Based teeth analysis/face analysis, dental routine/veneer recommendation system with report generation, email to doctor, appointment booking, integrated dental simulator with(Models: Overbite/Crossbite/Underbite and Treatments: Invisalign/veneers) .",
     tags: ["Next.js", "Vortex AI", "PostgreSQL", "Blender", "Computer Vision", "Three.js", "Nodemailer", "Typescript"],
     image: "https://res.cloudinary.com/dzrs9u5fg/image/upload/v1746351264/Screenshot_from_2025-05-04_14-55-00_cjdaqu.png",
-    liveLink: "https://ai-smile-analysis.vercel.app",
+    liveLink: "https://www.loom.com/share/b672364cd0df44ecaf9190b58a11ca02?sid=86694c0f-cb2b-4eed-8977-ba6a8f461be7",
     githubLink: "https://github.com/jayrajsinghrathore/SmileMatch-AI",
   },
   {

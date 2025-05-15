@@ -22,7 +22,7 @@ Welcome to my personal developer portfolio built with modern web technologies. T
 - 📱 Fully responsive layout across devices
 - 🧩 Modular & clean code with **Next.js + TypeScript**
 
-## 🔗 Live Demo
+## 🔗 Live Demo 
 
 👉 [Visit My Portfolio](https://jayrajspace.vercel.app)
 

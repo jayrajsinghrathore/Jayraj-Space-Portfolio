@@ -12,7 +12,7 @@ Welcome to my personal developer portfolio built with modern web technologies. T
 ![Nodemailer](https://img.shields.io/badge/Nodemailer-3C3C3C?style=for-the-badge&logo=nodemailer&logoColor=white)
 ![Calendly](https://img.shields.io/badge/Calendly-006BFF?style=for-the-badge&logo=calendly&logoColor=white)
 
-## 📂 Features
+## 📂 Features 
 
 - 🌠 Animated 3D hero section using **Three.js**
 - 💌 Contact form with email sending powered by **Nodemailer**

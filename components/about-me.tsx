@@ -7,7 +7,7 @@ import { Calendar, MapPin, Building2 } from "lucide-react"
 const timelineData = [
   {
     id: 1,
-    company: "Scribes, HackaSphere, Ace-Hack 4.0",
+    company: "LaunchHacks, HackaSphere, Ace-Hack 4.0",
     role: "Hackathons",
     period: "2023-2025",
     location: "Jaipur, Delhi",
